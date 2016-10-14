@@ -4,7 +4,9 @@ title: Tutorials
 ---
 
 # 1.10.2 Tutorials
-| Tutorial Name                                                                    | Description                                                        |
-|:---------------------------------------------------------------------------------|:-------------------------------------------------------------------|
-| Manipulating Loot Tables - http://tutorials.darkhax.net/tutorials/loot_tables/  | Demonstrates how loot tables can be manipulated to add custom loot |
-| Custom Entity Data - http://tutorials.darkhax.net/tutorials/custom_entity_data/ | Demonstrates how capabilities can be used to store entity data.    |
+| Number | Next number | Previous number |
+| :------ |:--- | :--- |
+| Five | Six | Four |
+| Ten | Eleven | Nine |
+| Seven | Eight | Six |
+| Two | Three | One |
