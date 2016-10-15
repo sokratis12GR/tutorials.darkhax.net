@@ -5,6 +5,7 @@ title: Loot Table Data
 
 This page contains a basic dump of the vanilla resource tables. If a table is empty, that means it has no pools in it, but pools can be added to it.
 
+
 ## minecraft:entities/sheep/light_blue
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
