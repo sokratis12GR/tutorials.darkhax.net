@@ -16,15 +16,13 @@ This page contains a dump of Minecraft's loot tables. Each table is represented 
 ## minecraft:entities/ocelot
 
 
-|Pool|Name|Item|Weight|Quality|
-|----|----|----|------|-------|
+No entries for this table!
 
 
 ## minecraft:entities/silverfish
 
 
-|Pool|Name|Item|Weight|Quality|
-|----|----|----|------|-------|
+No entries for this table!
 
 
 ## minecraft:chests/stronghold_corridor
@@ -56,8 +54,7 @@ This page contains a dump of Minecraft's loot tables. Each table is represented 
 ## minecraft:entities/wolf
 
 
-|Pool|Name|Item|Weight|Quality|
-|----|----|----|------|-------|
+No entries for this table!
 
 
 ## minecraft:entities/skeleton
@@ -157,8 +154,7 @@ This page contains a dump of Minecraft's loot tables. Each table is represented 
 ## minecraft:entities/shulker
 
 
-|Pool|Name|Item|Weight|Quality|
-|----|----|----|------|-------|
+No entries for this table!
 
 
 ## minecraft:entities/witch
@@ -543,8 +539,7 @@ This page contains a dump of Minecraft's loot tables. Each table is represented 
 ## minecraft:empty
 
 
-|Pool|Name|Item|Weight|Quality|
-|----|----|----|------|-------|
+No entries for this table!
 
 
 ## minecraft:entities/zombie_horse
@@ -712,8 +707,7 @@ This page contains a dump of Minecraft's loot tables. Each table is represented 
 ## minecraft:entities/endermite
 
 
-|Pool|Name|Item|Weight|Quality|
-|----|----|----|------|-------|
+No entries for this table!
 
 
 ## minecraft:entities/sheep/purple
@@ -745,15 +739,13 @@ This page contains a dump of Minecraft's loot tables. Each table is represented 
 ## minecraft:entities/bat
 
 
-|Pool|Name|Item|Weight|Quality|
-|----|----|----|------|-------|
+No entries for this table!
 
 
 ## minecraft:entities/giant
 
 
-|Pool|Name|Item|Weight|Quality|
-|----|----|----|------|-------|
+No entries for this table!
 
 
 ## minecraft:gameplay/fishing
