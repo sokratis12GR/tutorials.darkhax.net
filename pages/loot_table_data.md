@@ -5,6 +5,7 @@ title: Tutorials
 
 This page contains a dump of Minecraft's loot tables. Each table is represented as a table on this page. The entries of the contained Loot Pools are then used to populate the rows. If a table has no pools or entries, it will appear as an empty table. The code used to generate this dump can be found [here](https://gist.github.com/darkhax/4eff8d721a3e7f0b6861a430e8d7eab8). Additional reflection may be required. 
 
+
 ## minecraft:entities/sheep/light_blue
 
 
