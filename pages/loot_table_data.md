@@ -1,28 +1,28 @@
----
-layout: page
-title: Loot Table Data
----
-
-This page contains a basic dump of the vanilla resource tables. If a table is empty, that means it has no pools in it, but pools can be added to it.
-
-
 ## minecraft:entities/sheep/light_blue
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/ocelot
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:entities/silverfish
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:chests/stronghold_corridor
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:ender_pearl|minecraft:ender_pearl|10|0|
@@ -47,11 +47,15 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/wolf
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:entities/skeleton
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:arrow|minecraft:arrow|1|0|
@@ -59,12 +63,16 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/enderman
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:ender_pearl|minecraft:ender_pearl|1|0|
 
 
 ## minecraft:entities/stray
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:arrow|minecraft:arrow|1|0|
@@ -73,6 +81,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:chests/simple_dungeon
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:saddle|minecraft:saddle|20|0|
@@ -103,18 +113,24 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/sheep/brown
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/sheep/magenta
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/elder_guardian
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:prismarine_shard|minecraft:prismarine_shard|1|0|
@@ -124,17 +140,23 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/squid
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:dye|minecraft:dye|1|0|
 
 
 ## minecraft:entities/shulker
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:entities/witch
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:glowstone_dust|minecraft:glowstone_dust|1|0|
@@ -147,6 +169,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:chests/nether_bridge
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:diamond|minecraft:diamond|5|0|
@@ -164,6 +188,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:gameplay/fishing/treasure
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:waterlily|minecraft:waterlily|1|0|
@@ -175,6 +201,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/cave_spider
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:string|minecraft:string|1|0|
@@ -182,18 +210,24 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/sheep/green
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/creeper
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:gunpowder|minecraft:gunpowder|1|0|
 
 
 ## minecraft:entities/wither_skeleton
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:coal|minecraft:coal|1|0|
@@ -203,12 +237,16 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/skeleton_horse
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:bone|minecraft:bone|1|0|
 
 
 ## minecraft:gameplay/fishing/fish
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:fish|minecraft:fish|60|0|
@@ -218,6 +256,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:chests/igloo_chest
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:apple|minecraft:apple|15|0|
@@ -231,18 +271,24 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/sheep/red
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/horse
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:leather|minecraft:leather|1|0|
 
 
 ## minecraft:entities/guardian
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:prismarine_shard|minecraft:prismarine_shard|1|0|
@@ -251,12 +297,16 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/slime
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:slime_ball|minecraft:slime_ball|1|0|
 
 
 ## minecraft:chests/abandoned_mineshaft
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:golden_apple|minecraft:golden_apple|20|0|
@@ -282,18 +332,24 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/snowman
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:snowball|minecraft:snowball|1|0|
 
 
 ## minecraft:entities/sheep/blue
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/ghast
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:ghast_tear|minecraft:ghast_tear|1|0|
@@ -301,6 +357,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:chests/stronghold_crossing
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:iron_ingot|minecraft:iron_ingot|10|0|
@@ -314,6 +372,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/zombie
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:rotten_flesh|minecraft:rotten_flesh|1|0|
@@ -323,12 +383,16 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/blaze
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:blaze_rod|minecraft:blaze_rod|1|0|
 
 
 ## minecraft:gameplay/fishing/junk
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:leather_boots|minecraft:leather_boots|10|0|
@@ -345,12 +409,16 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/sheep/silver
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:chests/jungle_temple
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:diamond|minecraft:diamond|3|0|
@@ -367,6 +435,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:chests/desert_pyramid
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:diamond|minecraft:diamond|5|0|
@@ -391,6 +461,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/rabbit
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:rabbit_hide|minecraft:rabbit_hide|1|0|
@@ -399,18 +471,24 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/sheep
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:mutton|minecraft:mutton|1|0|
 
 
 ## minecraft:entities/sheep/orange
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/spider
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:string|minecraft:string|1|0|
@@ -418,6 +496,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/polar_bear
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:fish|minecraft:fish|3|0|
@@ -425,12 +505,16 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/sheep/lime
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/mushroom_cow
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:leather|minecraft:leather|1|0|
@@ -438,6 +522,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:chests/stronghold_library
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:book|minecraft:book|20|0|
@@ -448,35 +534,47 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:empty
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:entities/zombie_horse
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:rotten_flesh|minecraft:rotten_flesh|1|0|
 
 
 ## minecraft:entities/sheep/white
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/sheep/yellow
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/sheep/black
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:chests/village_blacksmith
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:diamond|minecraft:diamond|3|0|
@@ -499,30 +597,40 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/sheep/gray
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:chests/jungle_temple_dispenser
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:arrow|minecraft:arrow|30|0|
 
 
 ## minecraft:entities/magma_cube
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:magma_cream|minecraft:magma_cream|1|0|
 
 
 ## minecraft:entities/sheep/cyan
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/chicken
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:feather|minecraft:feather|1|0|
@@ -530,12 +638,16 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/sheep/pink
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:entities/zombie_pigman
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:rotten_flesh|minecraft:rotten_flesh|1|0|
@@ -544,6 +656,8 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/cow
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:leather|minecraft:leather|1|0|
@@ -551,12 +665,16 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/pig
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:porkchop|minecraft:porkchop|1|0|
 
 
 ## minecraft:chests/end_city_treasure
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:diamond|minecraft:diamond|5|0|
@@ -585,17 +703,23 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/endermite
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:entities/sheep/purple
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:wool|minecraft:wool|1|0|
 
 
 ## minecraft:chests/spawn_bonus_chest
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:stone_axe|minecraft:stone_axe|1|0|
@@ -612,21 +736,29 @@ This page contains a basic dump of the vanilla resource tables. If a table is em
 
 
 ## minecraft:entities/bat
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:entities/giant
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:gameplay/fishing
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 
 
 ## minecraft:entities/iron_golem
+
+
 |Pool|Name|Item|Weight|Quality|
 |----|----|----|------|-------|
 |main|minecraft:red_flower|minecraft:red_flower|1|0|
