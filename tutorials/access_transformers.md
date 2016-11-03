@@ -8,7 +8,7 @@ Access transformers are a fairly basic feature of Forge which allows a mod autho
 
 To get started, you must first create an AT (Access Transformer) file. These files are named using your mod id, followed by `_at.cfg`. These files are usually created in `src/main/resources` of your mod workspace. Once you have created the file, you need to add some stuff to your build script to handle the AT file. 
 
-The first thing to do to your `build.gradle` file is add the AT flag. This is `useDepAts = true` and goes in the `minecraft` block. This tells ForgeGradle that your mod usess access transformers. The second thing to add is a bit more complicated. At the end of your `processResources` block add `rename '(.+_at.cfg)', 'META-INF/$1'`. This tells Gradle to take any AT files, and move them in to the `META-INF` folder, which is where they need to be when in the compiled environment. Lastly, we need the script to set some properties in the compiled manifest file. The last bit can be done by adding this block to your build script.
+The first thing to do to your `build.gradle` file is fairly easy. At the end of your `processResources` block add `rename '(.+_at.cfg)', 'META-INF/$1'`. This tells Gradle to take any AT files, and move them in to the `META-INF` folder, which is where they need to be when in the compiled environment. Lastly, we need the script to set some properties in the compiled manifest file. The last bit can be done by adding this block to your build script.
 
 ```
 jar {
@@ -39,5 +39,7 @@ public-f net.minecraft.item.ItemSword field_150934_a # attackDamage
 Now that everything is in place, when you run `gradlew setupDecompWorkspace` or `gradlew build` it will detect the AT file, and handle it appropriately. If you are like me, and maintain a seperate project for the core workspace, you can simply put all your AT files in `src/main/resources` of that project, and run `gradlew setupDecompWorkspace` in there. You must run this command every time you make a change to your AT file. This will recreate the decompiled minecraft jar with your modifications aplied. 
 
 I would recommend keeping extensive comments in your AT file. The # symbol can be used to specify something as a comment, preventing it from being read as part of the AT. It is considered good practice to write the MCP name of a method, along with sorting all ATs by class. 
+
+If you are using a dependency which has ATs, you will want to add the dep AT flag. This is `useDepAts = true` and goes in the `minecraft` block. This tells ForgeGradle that your mod has dependencies which use access transformers.
 
 The last thing you should know about ATs is that they can be a bit troublesome at times. There is currently a [bug in Forge Gradle](https://github.com/MinecraftForge/ForgeGradle/issues/312) which will fail a build if the version number for a dependency which uses ATs has updated. This is an annoying issue, but if you run the build again it will pass. 
