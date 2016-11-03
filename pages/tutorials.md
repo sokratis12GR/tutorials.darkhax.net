@@ -6,7 +6,8 @@ title: Tutorials
 # 1.10.2 tutorials
 
 
-| Tutorial Name                                                                    | Description                                                                                               |
-|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [Manipulating Loot Tables](http://tutorials.darkhax.net/tutorials/loot_tables/)  | Demonstrates how to modify a loot pool. This allows for things like new dungeon loot.                     |
-| [Custom Entity Data](http://tutorials.darkhax.net/tutorials/custom_entity_data/) | Demonstrates how capabilities can be used to store entity data. Allows for a viable replacement to IEEPs! |
+| Tutorial Name                                                                       | Description                                                                                                  |
+|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| [Access Transformers] (http://tutorials.darkhax.net/tutorials/access_transformers/) | Basic explaination of access transformers, and how to use them effectively.                                  |
+| [Manipulating Loot Tables](http://tutorials.darkhax.net/tutorials/loot_tables/)     | Introduction to loot tables, and how to effectively manipulate them.                                         |
+| [Custom Entity Data](http://tutorials.darkhax.net/tutorials/custom_entity_data/)    | An efficient way to handle custom entity properties and NBT data. How to use them as a replacement for IEEPs |
