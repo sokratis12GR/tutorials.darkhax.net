@@ -1,7 +1,7 @@
 ---
 title: Custom Entity Data
 layout: page
-bigimg: /img/header_village.png
+bigimg: /img/header_village.jpg
 show-avatar: false
 ---
 
