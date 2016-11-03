@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Manipulating Loot Tables
-bigimg: /img/header_world.png
+bigimg: /img/header_world.jpg
 ---
 
 Loot tables are a relatively new feature in Minecraft. These tables handle the various pools of loot that are obtainable in the game. While normal users would interact with loot tables through a resource pack, mod authors have the `LootTableLoadEvent` which allows for complete manipulation of the loot pools. This event is fired every time a table is loaded. Tables are loaded during world load, and there are multiple tables. For this reason, you should try to keep your use of the event as light weight as possible. 
