@@ -119,7 +119,7 @@ The last few parts of this tutorial are about tieing all the previous code toget
 CapabilityManager.INSTANCE.register(IManaHandler.class, new Storage(), DefaultManaHandler.class);
 ```
 
-The last step is attatching the capability to the entity. This is done using the `AttatchCapabilityEvent<Entity>` event. This event is fired when the entity is constructed, and allows us to add our capability to it. Since I only want `EntityPlayer`s to have mana, I will use `event.getObject` and check if it is an EntityPlayer.Once you have your conditions defined, you can use `event.addCapability` to apply a new instance of the provider we made earlier. This method has two parameters, the first is a `ResourceLocation` which should be specific to your mod, and the second is the new provider. Here is an example of how this should look. 
+The last step is attatching the capability to the entity. This is done using the `AttatchCapabilityEvent<Entity>` event. This event is fired when the entity is constructed, and allows us to add our capability to it. Since I only want `EntityPlayer`s to have mana, I will use `event.getObject` and check if it is an EntityPlayer. Once you have your conditions defined, you can use `event.addCapability` to apply a new instance of the provider we made earlier. This method has two parameters, the first is a `ResourceLocation` which should be specific to your mod, and the second is the new provider. Here is an example of how this should look. 
 
 ```java
     @SubscribeEvent
