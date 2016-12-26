@@ -23,7 +23,13 @@ Now for the fun part, which is writing a new `IWorldGenerator` to load your stru
 
 ```
 
-Next up we are going to load in our structure and generate it with the settings created before. To do this, you must create a Template object. The way to do this is hidden away bit fairly straight forward. The first step is to create a new `ResourceLocation` which points to the structure file you made earlier. Once you have that, you can call this to get the Template for it. `world.getSaveHandler().getStructureTemplateManager().getTemplate(world.getMinecraftServer(), RESOURCE_LOCATION_HERE);`. The template offers a few methods for doing math relative to the structure, however the thing we want right now is the `addBlocksToWorld` method. Simply pass this method the world instance, position and placement settings and the template will be generated in the world. Here is what it should look like now. 
+Next up we are going to load in our structure and generate it with the settings created before. To do this, you must create a Template object. The way to do this is hidden away bit fairly straight forward. The first step is to create a new `ResourceLocation` which points to the structure file you made earlier. Once you have that, you can call this to get the Template for it. 
+
+```java
+world.getSaveHandler().getStructureTemplateManager().getTemplate(world.getMinecraftServer(), RESOURCE_LOCATION_HERE);
+```
+
+The template offers a few methods for doing math relative to the structure, however the thing we want right now is the `addBlocksToWorld` method. Simply pass this method the world instance, position and placement settings and the template will be generated in the world. Here is what it should look like now. 
 
 ```java
     
