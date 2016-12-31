@@ -48,13 +48,13 @@ The first step in using Forge's update checker system is to create a json file t
 The next step in adding support for Forge's update checker is to upload your json file to the web so others can access it. If you don't have a place to upload it, I would highly recommend using [Gist](https://gist.github.com/). Once you have uploaded the file, get the URL for it. If you used Gist, the URL should look like this 
 
 ``` 
-https://gist.githubusercontent.com/darkhax/486b52eabda471c7a04b1986ba134552/raw/9c8375b619e348353419b536dfc3da37294d9d57/update.json` 
+https://gist.githubusercontent.com/darkhax/486b52eabda471c7a04b1986ba134552/raw/update.json` 
 ``` 
 
 Now that you have the URL, simply define it in your main mod class by adding `updateJSON = "your url here"` to the @Mod annotation parameters. It should look something like this.  
  
 ```java 
-@Mod(modid = "yourid", name = "Mod Name", version = "1.2.2.1", updateJSON = "https://gist.githubusercontent.com/darkhax/486b52eabda471c7a04b1986ba134552/raw/9c8375b619e348353419b536dfc3da37294d9d57/update.json") 
+@Mod(modid = "yourid", name = "Mod Name", version = "1.2.2.1", updateJSON = "https://gist.githubusercontent.com/darkhax/486b52eabda471c7a04b1986ba134552/raw/update.json") 
 ``` 
  
 After that, your mod should now use Forge's update checker, and whenever a new version is available a flashing icon will show up on the Mods button in the main menu. When the player clicks said button they will get a list of all the mods that have updates, along with changelogs for them. Once you have this done, the only thing you have to remember is to add new versions to this file every time you release a new one. [ArmorPlus](http://fdn.redstone.tech/TheDragonTeam/armorplus/update.json) and [Charset](https://gist.githubusercontent.com/Meow-J/fe740e287c2881d3bf2341a62a7ce770/raw/bf829cdefc84344d86d1922e2667778112b845b1/update.json) are both examples of mods which are currently using Forge's update checker. 
