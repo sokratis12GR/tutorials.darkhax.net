@@ -1,6 +1,6 @@
 --- 
 layout: page 
-title: Update Detector 
+title: Update Checker
 bigimg: /img/header_gradle.jpg 
 --- 
 
@@ -46,9 +46,11 @@ The first step in using Forge's update checker system is to create a json file t
 `1.X.X` - These blocks of the json are used to define every public version of your mod. The format is simple, the first block defines the version of Minecraft, and inside you have every version of your mod for that version followed by a changelog string. The changelog string is shown in the update checker to show the player what has changed. It is possible to use `\n` to define a line break in the changelog, it is not possible to format that in a sane way within your json format. I would highly recommend pointing the changelog to the changelog on Curse or GitHub if you have one of those.  
  
 The next step in adding support for Forge's update checker is to upload your json file to the web so others can access it. If you don't have a place to upload it, I would highly recommend using [Gist](https://gist.github.com/). Once you have uploaded the file, get the URL for it. If you used Gist, the URL should look like this 
+
 ``` 
 https://gist.githubusercontent.com/darkhax/486b52eabda471c7a04b1986ba134552/raw/9c8375b619e348353419b536dfc3da37294d9d57/update.json` 
 ``` 
+
 Now that you have the URL, simply define it in your main mod class by adding `updateJSON = "your url here"` to the @Mod annotation parameters. It should look something like this.  
  
 ```java 
