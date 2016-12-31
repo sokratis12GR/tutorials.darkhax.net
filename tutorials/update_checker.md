@@ -1,10 +1,9 @@
-
 --- 
 layout: page 
 title: Update Detector 
 bigimg: /img/header_gradle.jpg 
 --- 
- 
+
 Ensuring that your players have the latest updates can be very important, especially when critical bugs or security issues have been patched. Historically mod have used the game chat to relay update information, however that quickly got annoying, especially when playing with multiple mods. Luckily forge provides a lightweight solution for this. 
  
 The first step in using Forge's update checker system is to create a json file to contain all of your update info. Creating said file is fairly easy, however if your mod already exists and is published it will require some effort to get all of the required information. Below is an example update file I made for a hypothetical mod. While the format forge uses is very straight forward, there are some design details which need further explanation. For the sake of completion each element will be explained below the example. 
