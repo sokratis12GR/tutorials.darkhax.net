@@ -11,4 +11,5 @@ title: Tutorials
 | [Manipulating Loot Tables](http://tutorials.darkhax.net/tutorials/loot_tables/)    | Introduction to loot tables, and how to effectively manipulate them.                                         |
 | [Custom Entity Data](http://tutorials.darkhax.net/tutorials/custom_entity_data/)   | An efficient way to handle custom entity properties and NBT data. How to use them as a replacement for IEEPs |
 | [Events](http://tutorials.darkhax.net/tutorials/events/)                           | Introduction to forge's event system for newer mod authors.                                                  |
-| [Structure Gen](http://tutorials.darkhax.net/tutorials/structure_gen/) | A look at Mojang's structure format, and how it can be used for simplistic structure generation.|
+| [Structure Gen](http://tutorials.darkhax.net/tutorials/structure_gen/)             | A look at Mojang's structure format, and how it can be used for simplistic structure generation.             |
+| [Update Checker](http://tutorials.darkhax.net/tutorials/update_checker/)           | Explanation of Forge's update checker format.                                                                |
