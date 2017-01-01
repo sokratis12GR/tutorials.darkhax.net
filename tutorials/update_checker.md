@@ -12,29 +12,29 @@ The first step in using Forge's update checker system is to create a json file t
 { 
         "homepage": "www.yoursite.com/yourmod", 
         "promos": { 
-                "1.10.2-latest": "1.2.1.1", 
-                "1.10.2-recommended": "1.2.0.3", 
-                "1.9.4-latest": "1.1.0.3", 
-                "1.9.4-recommended": "1.1.0.1", 
-                "1.9-latest": "1.0.0.7", 
-                "1.9-recommended": "1.0.0.4" 
+                "1.10.2-latest": "1.2.1.1",
+                "1.10.2-recommended": "1.2.0.3",
+                "1.9.4-latest": "1.1.0.3",
+                "1.9.4-recommended": "1.1.0.1",
+                "1.9-latest": "1.0.0.7",
+                "1.9-recommended": "1.0.0.4"
         }, 
-        "1.10.2": { 
-                "1.2.1.1": "Fixed a bug with experimental crafting system", 
-                "1.2.1.0": "Added experimental custom crafting system", 
-                "1.2.0.3": "Rewrote networking code", 
-                "1.2.0.0": "Ported to 1.10.2" 
+        "1.10.2": {
+                "1.2.0.0": "Ported to 1.10.2",
+                "1.2.0.3": "Rewrote networking code",
+                "1.2.1.0": "Added experimental custom crafting system",
+                "1.2.1.1": "Fixed a bug with experimental crafting system"
         }, 
-        "1.9.4": { 
-                "1.1.0.3": "Added tacos. Yumm!", 
-                "1.1.0.1": "Fixed some oversights with 1.9.4 porting", 
-                "1.1.0.0": "Ported to 1.9.4" 
+        "1.9.4": {
+                "1.1.0.0": "Ported to 1.9.4",
+                "1.1.0.1": "Fixed some oversights with 1.9.4 porting",
+                "1.1.0.3": "Added tacos. Yumm!"
         }, 
-        "1.9": { 
-                "1.0.0.7": "Fixed loading time issue with JEI support", 
-                "1.0.0.5": "Added experimental JEI support", 
-                "1.0.0.4": "Fixed a crash when crafting X", 
-                "1.0.0.0": "Initial Release" 
+        "1.9": {
+                "1.0.0.0": "Initial Release",
+                "1.0.0.4": "Fixed a crash when crafting X",
+                "1.0.0.5": "Added experimental JEI support",
+                "1.0.0.7": "Fixed loading time issue with JEI support"
         } 
 } 
 ``` 
